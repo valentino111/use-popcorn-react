@@ -9,7 +9,7 @@ import App from "./App";
 
 //   return (
 //     <div>
-//       <StarRating color="blue" maxRaiting={10} onSetRating={setMovieRating} />
+//       <StarRating color="blue" maxRating={10} onSetRating={setMovieRating} />
 //       <p>This movie was rated {movieRating} stars</p>
 //     </div>
 //   );
@@ -20,7 +20,7 @@ root.render(
   <React.StrictMode>
     <App />
     {/* <StarRating
-      maxRaiting={5}
+      maxRating={5}
       messages={["Terrible", "Bad", "Okay", "Good", "Amazing"]}
     />
     <StarRating size={24} color="red" classname="test" defaultRating={3} />
